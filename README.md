@@ -90,13 +90,13 @@ rust_learning/
 ### 📚 Learning Path Overview
 
 #### Phase 1: Basics (Days 1-7) ✅ Complete!
-1. Variables and Data Types ✅ (examples provided)
-2. Functions ✅ (examples provided)
-3. Control Flow ✅ (if/else, loops, match)
-4. Ownership and Borrowing ✅ (Rust's unique feature!)
-5. Structs and Enums ✅ (with methods and implementations)
-6. Pattern Matching ✅ (match, if let, destructuring)
-7. Error Handling ✅ (Result, Option, ? operator)
+1. Variables and Data Types ✅ (mutability, constants, shadowing, scalar/compound types)
+2. Functions ✅ (parameters, return values, expressions vs statements)
+3. Control Flow ✅ (if/else, loops, match expressions, nested patterns)
+4. Ownership and Borrowing ✅ (move semantics, references, lifetimes, string slices)
+5. Structs and Enums ✅ (methods, associated functions, complex enum variants)
+6. Pattern Matching ✅ (match guards, destructuring, if let/while let)
+7. Error Handling ✅ (Result/Option types, ? operator, custom errors)
 
 #### Phase 2: Intermediate (Days 8-14)
 1. Collections (Vec, HashMap, etc.)
