@@ -8,6 +8,11 @@ Cargo.lock
 variables
 functions
 data_types
+control_flow
+ownership_borrowing
+structs_enums
+pattern_matching
+error_handling
 ex1_variables
 ex2_*
 ex3_*

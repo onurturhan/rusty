@@ -48,6 +48,11 @@ rust_learning/
    - `variables.rs` - Variable types and mutability
    - `data_types.rs` - All Rust data types
    - `functions.rs` - Function examples
+   - `control_flow.rs` - If/else, loops, and match
+   - `ownership_borrowing.rs` - Ownership and borrowing
+   - `structs_enums.rs` - Structs and enums with methods
+   - `pattern_matching.rs` - Advanced pattern matching
+   - `error_handling.rs` - Result and Option types
 4. **`exercises/`** - Practice exercises directory with example solutions
 5. **`hello_rust/`** - Your first Cargo project
 6. **`guessing_game/`** - Interactive number guessing game (ready to play!)
@@ -84,14 +89,14 @@ rust_learning/
 
 ### 📚 Learning Path Overview
 
-#### Phase 1: Basics (Days 1-7)
+#### Phase 1: Basics (Days 1-7) ✅ Complete!
 1. Variables and Data Types ✅ (examples provided)
 2. Functions ✅ (examples provided)
-3. Control Flow (if/else, loops)
-4. Ownership and Borrowing (Rust's unique feature!)
-5. Structs and Enums
-6. Pattern Matching
-7. Error Handling
+3. Control Flow ✅ (if/else, loops, match)
+4. Ownership and Borrowing ✅ (Rust's unique feature!)
+5. Structs and Enums ✅ (with methods and implementations)
+6. Pattern Matching ✅ (match, if let, destructuring)
+7. Error Handling ✅ (Result, Option, ? operator)
 
 #### Phase 2: Intermediate (Days 8-14)
 1. Collections (Vec, HashMap, etc.)
