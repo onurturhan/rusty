@@ -119,7 +119,7 @@ rust_learning/
 
 **Phase 1 (Basics):**
 - **Ownership** (most unique/important concept)
-- **Borrowing** and references (&)
+- **Borrowing and references (&)**
 - **Pattern matching** with `match`
 - **Error handling** with `Result` and `Option`
 
