@@ -25,6 +25,9 @@ rust_learning/
 │   ├── data_types.rs           # All Rust data types
 │   └── functions.rs            # Function examples
 │
+├── exercises/                  # Practice exercises directory
+│   └── ex1_variables.rs        # Exercise 1 (example)
+│
 ├── hello_rust/                 # Your first Cargo project
 │   ├── Cargo.toml              # Project configuration
 │   ├── src/
@@ -59,8 +62,9 @@ rust_learning/
 
 2. **Run the examples:**
    ```bash
-   cd /home/rtems/Workspace/rust_learning
    rustc examples/data_types.rs -o data_types && ./data_types
+   rustc examples/variables.rs -o variables && ./variables
+   rustc examples/functions.rs -o functions && ./functions
    ```
 
 3. **Start with Exercise 1** - Create your first program following the exercises.md
@@ -141,9 +145,9 @@ cd guessing_game && cargo run
 rustc examples/variables.rs -o variables && ./variables
 rustc examples/functions.rs -o functions && ./functions
 
-# Start your first exercise
-mkdir exercises
-# Then follow the instructions in exercises.md
+# Try the first exercise
+rustc exercises/ex1_variables.rs -o ex1_variables && ./ex1_variables
+# Then complete more exercises following exercises.md
 ```
 
 ### 📖 Additional Resources
