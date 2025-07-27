@@ -13,6 +13,14 @@ ownership_borrowing
 structs_enums
 pattern_matching
 error_handling
+001-variables
+002-data_types
+003-functions
+004-control_flow
+005-ownership_borrowing
+006-structs_enums
+007-pattern_matching
+008-error_handling
 ex1_variables
 ex2_*
 ex3_*
