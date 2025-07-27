@@ -20,14 +20,13 @@ rust_learning/
 ├── exercises.md                # 7 structured practice exercises
 │
 ├── examples/                   # Working code examples (numbered in learning order)
-│   ├── 001-variables.rs        # Variable types and mutability
-│   ├── 002-data_types.rs       # All Rust data types
-│   ├── 003-functions.rs        # Function examples
-│   ├── 004-control_flow.rs     # If/else, loops, and match
-│   ├── 005-ownership_borrowing.rs # Ownership and borrowing
-│   ├── 006-structs_enums.rs    # Structs and enums with methods
-│   ├── 007-pattern_matching.rs # Advanced pattern matching
-│   └── 008-error_handling.rs   # Result and Option types
+│   ├── 001-variables_and_data_types.rs # Variables, mutability, and all data types
+│   ├── 002-functions.rs        # Function examples
+│   ├── 003-control_flow.rs     # If/else, loops, and match
+│   ├── 004-ownership_borrowing.rs # Ownership and borrowing
+│   ├── 005-structs_enums.rs    # Structs and enums with methods
+│   ├── 006-pattern_matching.rs # Advanced pattern matching
+│   └── 007-error_handling.rs   # Result and Option types
 │
 ├── exercises/                  # Practice exercises directory
 │   └── ex1_variables.rs        # Exercise 1 (example)
@@ -50,14 +49,13 @@ rust_learning/
 1. **`rust_cheatsheet.md`** - Quick reference for Rust syntax
 2. **`exercises.md`** - 7 structured exercises to practice
 3. **`examples/`** - Working code examples (numbered in learning order):
-   - `001-variables.rs` - Variable types and mutability
-   - `002-data_types.rs` - All Rust data types
-   - `003-functions.rs` - Function examples
-   - `004-control_flow.rs` - If/else, loops, and match
-   - `005-ownership_borrowing.rs` - Ownership and borrowing
-   - `006-structs_enums.rs` - Structs and enums with methods
-   - `007-pattern_matching.rs` - Advanced pattern matching
-   - `008-error_handling.rs` - Result and Option types
+   - `001-variables_and_data_types.rs` - Variables, mutability, and all data types
+   - `002-functions.rs` - Function examples
+   - `003-control_flow.rs` - If/else, loops, and match
+   - `004-ownership_borrowing.rs` - Ownership and borrowing
+   - `005-structs_enums.rs` - Structs and enums with methods
+   - `006-pattern_matching.rs` - Advanced pattern matching
+   - `007-error_handling.rs` - Result and Option types
 4. **`exercises/`** - Practice exercises directory with example solutions
 5. **`hello_rust/`** - Your first Cargo project
 6. **`guessing_game/`** - Interactive number guessing game (ready to play!)
@@ -71,9 +69,9 @@ rust_learning/
 
 2. **Run the examples (in order):**
    ```bash
-   rustc examples/001-variables.rs -o 001-variables && ./001-variables
-   rustc examples/002-data_types.rs -o 002-data_types && ./002-data_types
-   rustc examples/003-functions.rs -o 003-functions && ./003-functions
+   rustc examples/001-variables_and_data_types.rs -o 001-variables_and_data_types && ./001-variables_and_data_types
+   rustc examples/002-functions.rs -o 002-functions && ./002-functions
+   rustc examples/003-control_flow.rs -o 003-control_flow && ./003-control_flow
    ```
 
 3. **Start with Exercise 1** - Create your first program following the exercises.md
@@ -151,9 +149,9 @@ Get started immediately with these commands:
 cd guessing_game && cargo run
 
 # Try the examples (in order)
-rustc examples/001-variables.rs -o 001-variables && ./001-variables
-rustc examples/002-data_types.rs -o 002-data_types && ./002-data_types
-rustc examples/003-functions.rs -o 003-functions && ./003-functions
+rustc examples/001-variables_and_data_types.rs -o 001-variables_and_data_types && ./001-variables_and_data_types
+rustc examples/002-functions.rs -o 002-functions && ./002-functions
+rustc examples/003-control_flow.rs -o 003-control_flow && ./003-control_flow
 
 # Try the first exercise
 rustc exercises/ex1_variables.rs -o ex1_variables && ./ex1_variables
