@@ -26,7 +26,14 @@ rust_learning/
 │   ├── 004-ownership_borrowing.rs # Ownership and borrowing
 │   ├── 005-structs_enums.rs    # Structs and enums with methods
 │   ├── 006-pattern_matching.rs # Advanced pattern matching
-│   └── 007-error_handling.rs   # Result and Option types
+│   ├── 007-error_handling.rs   # Result and Option types
+│   ├── 008-collections.rs      # Vec, HashMap, HashSet, and other collections
+│   ├── 009-generics-traits.rs  # Generic types and trait system
+│   ├── 010-lifetimes.rs        # Lifetime annotations and management
+│   ├── 011-modules-crates.rs   # Module system and crate organization
+│   ├── 012-file-io.rs          # File I/O operations and path handling
+│   ├── 013-testing.rs          # Unit testing and test organization
+│   └── 014-command-line.rs     # Building command-line programs
 │
 ├── exercises/                  # Practice exercises directory
 │   └── ex1_variables.rs        # Exercise 1 (example)
@@ -49,6 +56,8 @@ rust_learning/
 1. **`rust_cheatsheet.md`** - Quick reference for Rust syntax
 2. **`exercises.md`** - 7 structured exercises to practice
 3. **`examples/`** - Working code examples (numbered in learning order):
+   
+   **Phase 1 (Basics):**
    - `001-variables_and_data_types.rs` - Variables, mutability, and all data types
    - `002-functions.rs` - Function examples
    - `003-control_flow.rs` - If/else, loops, and match
@@ -56,6 +65,15 @@ rust_learning/
    - `005-structs_enums.rs` - Structs and enums with methods
    - `006-pattern_matching.rs` - Advanced pattern matching
    - `007-error_handling.rs` - Result and Option types
+   
+   **Phase 2 (Intermediate):**
+   - `008-collections.rs` - Vec, HashMap, HashSet, and other collections
+   - `009-generics-traits.rs` - Generic types and trait system
+   - `010-lifetimes.rs` - Lifetime annotations and management
+   - `011-modules-crates.rs` - Module system and crate organization
+   - `012-file-io.rs` - File I/O operations and path handling
+   - `013-testing.rs` - Unit testing and test organization
+   - `014-command-line.rs` - Building command-line programs
 4. **`exercises/`** - Practice exercises directory with example solutions
 5. **`hello_rust/`** - Your first Cargo project
 6. **`guessing_game/`** - Interactive number guessing game (ready to play!)
@@ -69,20 +87,34 @@ rust_learning/
 
 2. **Run the examples (in order):**
    ```bash
+   # Phase 1 (Basics)
    rustc examples/001-variables_and_data_types.rs -o 001-variables_and_data_types && ./001-variables_and_data_types
    rustc examples/002-functions.rs -o 002-functions && ./002-functions
    rustc examples/003-control_flow.rs -o 003-control_flow && ./003-control_flow
+   
+   # Phase 2 (Intermediate) - Try after completing Phase 1
+   rustc examples/008-collections.rs -o 008-collections && ./008-collections
+   rustc examples/009-generics-traits.rs -o 009-generics-traits && ./009-generics-traits
    ```
 
 3. **Start with Exercise 1** - Create your first program following the exercises.md
 
 4. **Use the cheatsheet** - Keep `rust_cheatsheet.md` open as reference
 
-### 🎯 Key Rust concepts to focus on first:
+### 🎯 Key Rust concepts to focus on:
+
+**Phase 1 (Basics):**
 - **Ownership** (most unique/important concept)
 - **Borrowing** and references (&)
 - **Pattern matching** with `match`
 - **Error handling** with `Result` and `Option`
+
+**Phase 2 (Intermediate):**
+- **Collections** for data storage (Vec, HashMap)
+- **Generics and Traits** for code reusability
+- **Lifetimes** for advanced memory management
+- **Modules** for code organization
+- **Testing** for code reliability
 
 ### 💡 Pro tips:
 - Read compiler error messages carefully - Rust's compiler is very helpful!
@@ -101,14 +133,14 @@ rust_learning/
 6. Pattern Matching ✅ (match guards, destructuring, if let/while let)
 7. Error Handling ✅ (Result/Option types, ? operator, custom errors)
 
-#### Phase 2: Intermediate (Days 8-14)
-1. Collections (Vec, HashMap, etc.)
-2. Generics and Traits
-3. Lifetimes
-4. Modules and Crates
-5. File I/O
-6. Testing
-7. Command Line Programs
+#### Phase 2: Intermediate (Days 8-14) ✅ Complete!
+1. Collections ✅ (Vec, HashMap, HashSet, VecDeque, BTreeMap, iterator patterns)
+2. Generics and Traits ✅ (generic functions/structs, trait bounds, associated types)
+3. Lifetimes ✅ (lifetime annotations, elision rules, static lifetimes)
+4. Modules and Crates ✅ (module system, privacy, use statements, external crates)
+5. File I/O ✅ (reading/writing files, buffered I/O, path operations)
+6. Testing ✅ (unit tests, integration tests, assertions, test organization)
+7. Command Line Programs ✅ (args, environment variables, stdin/stdout, CLI tools)
 
 #### Phase 3: Advanced (Days 15+)
 1. Concurrency and Threads
@@ -149,9 +181,15 @@ Get started immediately with these commands:
 cd guessing_game && cargo run
 
 # Try the examples (in order)
+# Phase 1 examples
 rustc examples/001-variables_and_data_types.rs -o 001-variables_and_data_types && ./001-variables_and_data_types
 rustc examples/002-functions.rs -o 002-functions && ./002-functions
 rustc examples/003-control_flow.rs -o 003-control_flow && ./003-control_flow
+
+# Phase 2 examples (intermediate)
+rustc examples/008-collections.rs -o 008-collections && ./008-collections
+rustc examples/009-generics-traits.rs -o 009-generics-traits && ./009-generics-traits
+rustc examples/010-lifetimes.rs -o 010-lifetimes && ./010-lifetimes
 
 # Try the first exercise
 rustc exercises/ex1_variables.rs -o ex1_variables && ./ex1_variables
