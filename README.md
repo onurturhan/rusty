@@ -33,7 +33,13 @@ rust_learning/
 │   ├── 011-modules-crates.rs   # Module system and crate organization
 │   ├── 012-file-io.rs          # File I/O operations and path handling
 │   ├── 013-testing.rs          # Unit testing and test organization
-│   └── 014-command-line.rs     # Building command-line programs
+│   ├── 014-command-line.rs     # Building command-line programs
+│   ├── 015-concurrency-threads.rs # Concurrency and Threads (channels, Mutex, Arc)
+│   ├── 016-async-programming.rs # Asynchronous Programming (async/await, Tokio)
+│   ├── 017-unsafe-rust.rs      # Unsafe Rust (raw pointers, FFI)
+│   ├── 018-macros.rs           # Macros (declarative, procedural)
+│   ├── 019-web-development.rs  # Web Development (frameworks, HTTP, APIs)
+│   └── 020-system-programming.rs # System Programming (OS interaction, low-level networking)
 │
 ├── exercises/                  # Practice exercises directory
 │   └── ex1_variables.rs        # Exercise 1 (example)
@@ -74,6 +80,14 @@ rust_learning/
    - `012-file-io.rs` - File I/O operations and path handling
    - `013-testing.rs` - Unit testing and test organization
    - `014-command-line.rs` - Building command-line programs
+   
+   **Phase 3 (Advanced):**
+   - `015-concurrency-threads.rs` - Concurrency and Threads (channels, Mutex, Arc)
+   - `016-async-programming.rs` - Asynchronous Programming (async/await, Tokio)
+   - `017-unsafe-rust.rs` - Unsafe Rust (raw pointers, FFI)
+   - `018-macros.rs` - Macros (declarative, procedural)
+   - `019-web-development.rs` - Web Development (frameworks, HTTP, APIs)
+   - `020-system-programming.rs` - System Programming (OS interaction, low-level networking)
 4. **`exercises/`** - Practice exercises directory with example solutions
 5. **`hello_rust/`** - Your first Cargo project
 6. **`guessing_game/`** - Interactive number guessing game (ready to play!)
@@ -142,13 +156,13 @@ rust_learning/
 6. Testing ✅ (unit tests, integration tests, assertions, test organization)
 7. Command Line Programs ✅ (args, environment variables, stdin/stdout, CLI tools)
 
-#### Phase 3: Advanced (Days 15+)
-1. Concurrency and Threads
-2. Async Programming
-3. Unsafe Rust
-4. Macros
-5. Web Development
-6. System Programming
+#### Phase 3: Advanced (Days 15+) 🚧 Work in Progress
+1. Concurrency and Threads 🚧 (channels, Mutex, Arc)
+2. Async Programming 🚧 (async/await, Tokio, Futures)
+3. Unsafe Rust 🚧 (raw pointers, FFI, `unsafe` keyword)
+4. Macros 🚧 (declarative, procedural, custom macros)
+5. Web Development 🚧 (frameworks like Actix Web/Axum, HTTP, APIs)
+6. System Programming 🚧 (OS interaction, low-level networking, embedded)
 
 ### 🛠️ Essential Cargo Commands
 
